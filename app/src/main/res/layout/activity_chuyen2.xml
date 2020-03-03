@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".ChuyenActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hiển thị tài khoản"
+        android:id="@+id/txtHienthiEmail"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtHienthiPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hiển thị mật khẩu"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+    </TextView>
+
+</LinearLayout>

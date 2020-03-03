@@ -23,6 +23,7 @@ public class ChuyenActivity2 extends AppCompatActivity {
             String passHienthi = bd.getString("key 2","Sai key");
             txtHienthiEmail.setText(emailHienthi);
             txtHienthiPass.setText(passHienthi);
+            Toast.makeText(this,"Ban dang nhap thanh cong",Toast.LENGTH_SHORT).show();
         }
     }
 
